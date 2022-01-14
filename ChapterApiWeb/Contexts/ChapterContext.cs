@@ -7,16 +7,14 @@ using System.Threading.Tasks;
 
 namespace ChapterApiWeb.Contexts
 {
-    // dbcontext é a ponte entre o modelo de classe e o banco dedados
+    // dbcontext é a ponte entre o modelo de classe e o banco de dados
     public class ChapterContext : DbContext
     {
 
         public ChapterContext()
         {
         }
-        public ChapterContext(DbContextOptions<ChapterContext>
-        options)
-        : base(options)
+        public ChapterContext(DbContextOptions<ChapterContext> options) : base(options)
         {
         }
         // vamos utilizar esse método para configurar o banco de dados
