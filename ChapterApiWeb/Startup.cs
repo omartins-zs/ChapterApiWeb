@@ -27,6 +27,11 @@ namespace ChapterApiWeb
         {
             services.AddControllers();
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Version = "v1", Title = "Chapter.ApiWeb" });
+            });
+
             services.AddScoped<ChapterContext, ChapterContext>();
 
             services.AddTransient<LivroRepository, LivroRepository>();
@@ -46,7 +51,18 @@ namespace ChapterApiWeb
                 app.UseHsts();
             }
 
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chapter.ApiWeb");
+                c.RoutePrefix = String.Empty;
+            });
+
+
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
