@@ -27,6 +27,19 @@ namespace ChapterApiWeb
         {
             services.AddControllers();
 
+            // Adicionando CORS | Fazendo Junto e seguindo Exemplo da Video Aula do Encontro Remoto 3 - 21/01
+            services.AddCors(options =>
+            {
+
+                options.AddPolicy("CorsPolicy",
+                      builder =>
+                      {
+                          builder.WithOrigins("http://localhost:3000")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                      });
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Version = "v1", Title = "Chapter.ApiWeb" });
@@ -66,6 +79,9 @@ namespace ChapterApiWeb
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            // Fazendo Use do Cors
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 
