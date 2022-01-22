@@ -29,9 +29,5 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 
 ## Dicas
 
-* Indentar
-```sh
-Ctrl + K + D
-```
-
-* Para fazer Using -> CTRL + . 
+* Indentar -> ```  Ctrl + K + D ```
+* Para fazer Using ->  ``` CTRL + .  ``` 
