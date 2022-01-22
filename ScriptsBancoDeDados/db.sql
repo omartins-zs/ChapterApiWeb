@@ -1,0 +1,68 @@
+CREATE DATABASE Chapter
+
+GO
+
+USE Chapter
+
+GO
+
+CREATE TABLE Livros (
+    Id INT PRIMARY KEY IDENTITY,
+    Titulo VARCHAR(150) NOT NULL,
+    QuantidadePaginas INT,
+    Disponivel BIT
+)
+
+GO
+
+INSERT INTO Livros (Titulo, QuantidadePaginas, Disponivel) 
+
+VALUES ('Titulo A', 120, 1)
+
+GO
+
+INSERT INTO Livros (Titulo, QuantidadePaginas, Disponivel) 
+
+VALUES ('Titulo B', 220, 0)
+
+GO
+
+-- UPDATE Livros SET Titulo = 'Titulo A1' Where Id = 1;
+
+-- DELETE FROM Livros WHERE Id = 1;
+
+SELECT Id, Titulo, QuantidadePaginas, Disponivel FROM Livros
+
+
+GO
+
+CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY IDENTITY,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    Senha VARCHAR(120) NOT NULL,
+    -- Adicionado Tipo na Video Aula do Encontro Remoto 3 - 21/01
+    Tipo INT NOT NULL
+)
+
+GO
+
+-- * SE PRECISAR -> ALTER TABLE Usuarios ADD Tipo INT NULL ; *
+
+
+-- * INSERT COM Tipo *
+
+GO
+
+INSERT INTO Usuarios VALUES ('email@email.br', '4321', 1)
+INSERT INTO Usuarios VALUES ('teste@teste.br', '6789', 0)
+
+
+-- * INSERT SEM Tipo *
+
+GO
+
+INSERT INTO Usuarios VALUES ('email@sp.br', '1234')
+
+GO
+
+SELECT * FROM Usuarios WHERE email = 'email@sp.br' AND senha = '1234'
