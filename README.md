@@ -1,5 +1,10 @@
 # ChapterApiWeb
 
+Projeto feito Passo a Passo com o Tutorial de Api do Senai e Meet
+
+Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterApiWeb
+
+
 ## 📄  Auxiliar
 
 ### Documentação:
