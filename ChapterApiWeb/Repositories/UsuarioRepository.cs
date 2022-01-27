@@ -32,10 +32,23 @@ namespace ChapterApiWeb.Repositories
 
         public Usuario BuscarPorId(int id)
         {
-           return _context.Usuarios.Find(id);
+            return _context.Usuarios.Find(id);
         }
 
 
+        public void Atualizar(int id, Usuario u)
+        {
+            Usuario usuarioEncontrado = _context.Usuarios.Find(id);
 
+            if (usuarioEncontrado != null)
+            {
+                usuarioEncontrado.Email = u.Email;
+                usuarioEncontrado.Senha = u.Senha;
+                usuarioEncontrado.Tipo = u.Tipo;
+            }
+            _context.Usuarios.Update(usuarioEncontrado);
+
+            _context.SaveChanges();
+        }
     }
 }
