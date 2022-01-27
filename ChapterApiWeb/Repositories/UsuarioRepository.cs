@@ -16,6 +16,17 @@ namespace ChapterApiWeb.Repositories
         {
             _context = context;
         }
-       
+
+        public List<Usuario> Listar()
+        {
+            return _context.Usuarios.ToList();
+        }
+
+
+        public void Cadastrar(Usuario u)
+        {
+            _context.Usuarios.Add(u);
+            _context.SaveChanges();
+        }
     }
 }
