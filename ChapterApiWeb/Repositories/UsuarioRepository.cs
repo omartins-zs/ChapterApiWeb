@@ -28,5 +28,7 @@ namespace ChapterApiWeb.Repositories
             _context.Usuarios.Add(u);
             _context.SaveChanges();
         }
+
+
     }
 }
