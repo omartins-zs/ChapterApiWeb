@@ -65,6 +65,11 @@ namespace ChapterApiWeb.Repositories
             // Salva (persistir) as informações para serem gravadas no banco de dados
             _context.SaveChanges();
         }
+
+        /// <summary>
+        /// Deleta um livro existente a partir do id
+        /// </summary>
+        /// <param name="id"></param>
         public void Deletar(int id)
         {
             // Busca um livro através do seu id
