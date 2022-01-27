@@ -50,5 +50,17 @@ namespace ChapterApiWeb.Repositories
 
             _context.SaveChanges();
         }
+
+
+        public void Deletar(int id)
+        {
+            Usuario usuarioEncontrado = _context.Usuarios.Find(id);
+
+            // Metodo feito sem verificaçao Exclui direto | Metodo HTTP Atualizar tem Verificação para servir de Exemplo
+
+            _context.Usuarios.Remove(usuarioEncontrado);
+
+            _context.SaveChanges();
+        }
     }
 }
