@@ -30,5 +30,12 @@ namespace ChapterApiWeb.Repositories
         }
 
 
+        public Usuario BuscarPorId(int id)
+        {
+           return _context.Usuarios.Find(id);
+        }
+
+
+
     }
 }
