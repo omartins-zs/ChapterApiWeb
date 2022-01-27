@@ -29,6 +29,9 @@ namespace ChapterApiWeb.Contexts
         }
         // dbset representa as entidades que serão utilizadas nas operações de leitura, criação, atualização e deleção
         public DbSet<Livro> Livros { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+
     }
 }
 
