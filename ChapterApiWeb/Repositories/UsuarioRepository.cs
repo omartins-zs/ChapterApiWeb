@@ -62,5 +62,12 @@ namespace ChapterApiWeb.Repositories
 
             _context.SaveChanges();
         }
+
+
+        // Adiantando Metodo de Login | Será feito no Encontro Remoto 4 - 28/01 de Segurança de APIs
+        public Usuario Login(string email, string senha)
+        {
+            return _context.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
+        }
     }
 }
