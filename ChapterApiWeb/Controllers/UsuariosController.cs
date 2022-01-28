@@ -23,7 +23,7 @@ namespace ChapterApiWeb.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
-        // Get
+        // Get Listar | /api/usuarios
         [HttpGet]
         public IActionResult Listar()
         {
@@ -31,13 +31,17 @@ namespace ChapterApiWeb.Controllers
             {
                 return Ok(_usuarioRepository.Listar());
             }
+            // Execption e
             catch (Exception e)
             {
+                // Excetion(e.Message);
                 throw new Exception(e.Message);
             }
+
         }
 
-        //  Get By Id
+
+        // Get Buscar por Id | /api/usuarios/id
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -47,8 +51,8 @@ namespace ChapterApiWeb.Controllers
 
                 if (usuarioProcurado == null)
                 {
-                    //Mensagem dentro do retturn colocar no final
-                    return NotFound("Usuario não encontrado!");
+                    // Mensagem que esta dentro do Return adicionar no final
+                    return NotFound("Usuario não encontrado!!");
                 }
 
                 return Ok(usuarioProcurado);
@@ -60,7 +64,8 @@ namespace ChapterApiWeb.Controllers
             }
         }
 
-        // Post
+
+        // Post | /api/usuarios/
         [HttpPost]
         public IActionResult Cadastrar(Usuario u)
         {
@@ -77,7 +82,7 @@ namespace ChapterApiWeb.Controllers
         }
 
 
-        // Put
+        // Put | /api/usuarios/id
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario u)
         {
@@ -94,7 +99,7 @@ namespace ChapterApiWeb.Controllers
         }
 
 
-        // Delete
+        // Delete | /api/usuarios/id
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -109,5 +114,7 @@ namespace ChapterApiWeb.Controllers
                 throw new Exception(e.Message);
             }
         }
+
+
     }
 }
