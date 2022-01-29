@@ -16,7 +16,11 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
   
   <hr>
   
+  ## Rodando localmente
   
+  Swagger  |  `https://localhost:5001/index.html`
+  
+  Insomnia  |  `http://localhost:5000/api/`
   
   ### Teste
   
