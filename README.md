@@ -12,21 +12,29 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 
 * Swashbuckle.AspNetCore -> Para utilizar o Swagger
   
+   <br/> 
+    <hr>
+ <br/> 
   
+
+  
+ ## Teste
+  
+  Documentação e Teste da API - [Swagger](https://swagger.io/)
+  
+  Decodificaçao de Token e Explicação - [JSON Web Tokens - jwt.io](https://jwt.io/)
   
   <hr>
   
-  ## Rodando localmente
+  ### Rodando localmente
   
-  Swagger  |  `https://localhost:5001/index.html`
-  
-  Insomnia  |  `http://localhost:5000/api/`
-  
-  ### Teste
-  
-  Documentação e Teste da API - [Swagger](https://swagger.io/)
-  Decodificaçao de Token e Explicação - [JSON Web Tokens - jwt.io](https://jwt.io/)
+  Swagger
+  > `https://localhost:5001/index.html`
 
+  Insomnia
+  > `http://localhost:5000/api/`
+
+ 
 ## Instrucões do banco de dados
 
 * db.sql -> Banco de dados inicial 
