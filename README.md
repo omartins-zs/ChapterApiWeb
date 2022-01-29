@@ -38,5 +38,12 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 
 ## Dicas
 
+* Atalhos [Snippets de código C#](https://docs.microsoft.com/pt-br/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022)
+
 * Indentar -> ```  Ctrl + K + D ```
-* Para fazer Using ->  ``` CTRL + .  ``` 
+
+* Para fazer Using ->  ``` Ctrl + .  ``` 
+
+* O Preenchimento de código com `Ctrl+Space`
+
+* Usar Atalho do Emmet|IntelliSense  `prop`  -> Para Criar Atributos do Objeto
