@@ -9,9 +9,10 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 ### Pacotes do Nuget Utilizados:
 
 * Microsoft.EntityFrameworkCore.SqlServer -> Para utilizar Migrations SQL
-
 * Swashbuckle.AspNetCore -> Para utilizar o Swagger
-  
+* System.IdentityModel.Tokens.Jwt -> Para identificação de JWT
+* Microsoft.AspNetCore.Authentication.JwtBearer -> Para Interpretar Autenticação JWT
+
    <br/> 
     <hr>
  <br/> 
