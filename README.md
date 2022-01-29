@@ -17,6 +17,11 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
   <hr>
   
   
+  
+  ### Teste
+  
+  Documentação e Teste da API - [Swagger](https://swagger.io/)
+  Decodificaçao de Token e Explicação - [JSON Web Tokens - jwt.io](https://jwt.io/)
 
 ## Instrucões do banco de dados
 
