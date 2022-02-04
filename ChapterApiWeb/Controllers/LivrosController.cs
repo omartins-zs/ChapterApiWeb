@@ -16,6 +16,7 @@ namespace ChapterApiWeb.Controllers
     [ApiController]
 
     // Para usar autorização e metodo do JWT e Authentication
+    // Comentar Authorize depois dos teste para não ter que sempre fazer Login
     [Authorize]
     public class LivrosController : ControllerBase
     {
