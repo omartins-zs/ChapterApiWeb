@@ -3,7 +3,10 @@ using ChapterApiWeb.Repositories;
 using ChapterApiWeb.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace ChapterApiWeb.Controllers
 {
@@ -34,6 +37,36 @@ namespace ChapterApiWeb.Controllers
                     return NotFound("E-mail e/ou senha invalidos");
                 }
 
+                // Criando Claims do Token(Claims e usado para armazenar os dados que vem no token)
+                var minhasClaims = new[] {
+                   new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
+               	// JTI da Dependia JWT Claims usado para guardar Ids
+                    new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.Id.ToString()),
+                    new Claim(ClaimTypes.Role, usuarioBuscado.Tipo.ToString())
+                };
+
+                // Chave que vai dentro da Crendecial 
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("chapter-chave-autenticacao"));
+
+                // Credencial 
+                var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+                // Criaçao do Token
+                var meuToken = new JwtSecurityToken(
+                    issuer: "chapterApiWeb",
+                    audience: "chapterApiWeb",
+                    claims: minhasClaims,
+                    expires: DateTime.Now.AddMinutes(60),
+                // Credencial Recebida que contem a Chave e o Algoritimo Credenciado
+                    signingCredentials: cred
+                );
+
+                return Ok(
+                        new
+                        {
+                            token = new JwtSecurityTokenHandler().WriteToken(meuToken)
+                        }
+                );
             }
             catch (Exception e)
             {
