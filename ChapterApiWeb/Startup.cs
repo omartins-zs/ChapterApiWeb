@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using jwt
 using Microsoft.IdentityModel.Tokens;
 
 namespace ChapterApiWeb
@@ -111,6 +110,9 @@ namespace ChapterApiWeb
 
             // Fazendo Use do Cors
             app.UseCors("CorsPolicy");
+
+            // Fazendo Use do Service de Authentication
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
