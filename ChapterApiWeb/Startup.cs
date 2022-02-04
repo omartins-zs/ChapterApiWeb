@@ -49,6 +49,11 @@ namespace ChapterApiWeb
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
                 options.DefaultChallengeScheme = "JwtBearer";
+            }).AddJwtBearer("JwtBearer", options =>
+            {
+
+
+
             });
 
             services.AddScoped<ChapterContext, ChapterContext>();
