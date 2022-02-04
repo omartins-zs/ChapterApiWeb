@@ -1,5 +1,6 @@
 ﻿using ChapterApiWeb.Models;
 using ChapterApiWeb.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,6 +14,9 @@ namespace ChapterApiWeb.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+
+    // Para usar autorização e metodo do JWT e Authentication
+    [Authorize]
     public class LivrosController : ControllerBase
     {
 
