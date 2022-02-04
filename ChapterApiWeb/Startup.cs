@@ -45,6 +45,12 @@ namespace ChapterApiWeb
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Version = "v1", Title = "Chapter.ApiWeb" });
             });
 
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            });
+
             services.AddScoped<ChapterContext, ChapterContext>();
 
             services.AddTransient<LivroRepository, LivroRepository>();
