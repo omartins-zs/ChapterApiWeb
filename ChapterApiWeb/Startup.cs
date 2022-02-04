@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using jwt
+using Microsoft.IdentityModel.Tokens;
 
 namespace ChapterApiWeb
 {
@@ -51,10 +53,23 @@ namespace ChapterApiWeb
                 options.DefaultChallengeScheme = "JwtBearer";
             }).AddJwtBearer("JwtBearer", options =>
             {
-
-
-
+                // Instanciando Novo Token
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    // Validaçoes
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    // Aonde Configura o Padrao que tem que ser o token
+                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("chapter-chave-autenticacao")),
+                    // Tempo De funcionamento do Token ate Expirar
+                    ClockSkew = TimeSpan.FromMinutes(60),
+                    // Nome que precisa vim na Validação
+                    ValidAudience = "chapterApiWeb",
+                    ValidIssuer = "chapterApiWeb"
+                };
             });
+
 
             services.AddScoped<ChapterContext, ChapterContext>();
 
