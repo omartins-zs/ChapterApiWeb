@@ -49,6 +49,9 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
   <div align="center">
 
    <h3 align="center"><i>Documentaçao da Api</em></h3>
+   
+  ##### Configurado Variables {{URL}} no Postman
+> `{{URL}} = http://localhost:3000`
   
    <img align="center" src="/Documentation-API.png">
 </div>
