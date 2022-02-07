@@ -16,9 +16,19 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
    <br/> 
     <hr>
  <br/> 
-  
+ 
+   <p align="center">
+ 🚀 Frameworks 
+</p>
 
-  
+  <p align="center">
+    <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+
+  <img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white"/>
+
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white"/>
+  </p>
+
  ## Teste
   
   Documentação e Teste da API - [Swagger](https://swagger.io/)
