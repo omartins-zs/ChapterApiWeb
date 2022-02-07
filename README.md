@@ -45,6 +45,13 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
   Insomnia
   > `http://localhost:5000/api/`
 
+<hr/>
+  <div align="center">
+
+   <h3 align="center"><i>Documentaçao da Api</em></h3>
+  
+   <img align="center" src="/Documentation-API.png">
+</div>
  
 ## Instrucões do banco de dados
 
