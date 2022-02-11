@@ -1,10 +1,8 @@
 # ChapterApiWeb
 
-Projeto feito Passo a Passo com o Tutorial de Api do Senai e Meet
+Projeto feito Passo a Passo com o Tutorial de Api do Senai e Meet Boas praticas
 
 Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterApiWeb
-
-
 
 ### Pacotes do Nuget Utilizados:
 
@@ -64,52 +62,47 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 * dbUsuarios.sql -> Usado para criar Tabela Usuarios
 
 
-## 📄  Auxiliar
+## 📄 Auxiliar
 
 ### Referencias
 
-HTTP: Status Code [DEVMEDIA](https://www.devmedia.com.br/http-status-code/41222)
-Boas praticas
+HTTP: Status Code [DevMedia](https://www.devmedia.com.br/http-status-code/41222)
+
 
 ### Documentação:
 
 * [Introdução ao Swashbuckle e ao ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio)
-
 * [Exemplos de SELECT](https://docs.microsoft.com/pt-br/sql/t-sql/queries/select-examples-transact-sql?view=sql-server-ver15) 
-
 * [Fazer ALTER na Tabela SSMS](https://docs.microsoft.com/pt-br/sql/relational-databases/tables/add-columns-to-a-table-database-engine?view=sql-server-ver15)
-
 * [Documentação e Habilitar CORS](https://docs.microsoft.com/pt-br/aspnet/core/security/cors?view=aspnetcore-5.0)
+
+
 
 ## Aprendizados
 
 ***Diferença de Autenticado e Autorizado***
 
-Exemplo
+1º  Exemplo
 
 * **Autenticação:** Verifique a carteira de estudante, significa que ele ou ela pertence à nossa escola ou não.
 * **Autorização:** Verifique se o aluno tem permissão para sentar ou não no Laboratório de Programação de Computadores.
 
-2 Exemplo
+2º Exemplo
 
 * **A autenticação** trata da validação da conta do usuário. Este é um usuário válido? Este usuário está cadastrado em nosso aplicativo ?. por exemplo: Login
-
 * **A autorização** trata da validação de acesso do usuário a determinado recurso. Este usuário tem autorização / direito de acessar este recurso? por exemplo: reivindicações, funções
+
 
 ## Correçao de Erros
 
 SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server](https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
 
 
-
 ## Dicas
 
 * Atalhos [Snippets de código C#](https://docs.microsoft.com/pt-br/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022)
-
 * Indentar -> ```  Ctrl + K + D ```
-
+* Atalhos de [Completaçao de Codigo](https://www.jetbrains.com/pt-br/resharper/features/code_completion.html) 
 * Para fazer Using ->  ``` Ctrl + .  ``` 
-
 * O Preenchimento de código com `Ctrl+Space`
-
-* Usar Atalho do Emmet|IntelliSense  `prop`  -> Para Criar Atributos do Objeto
+* Usar Atalho do IntelliSense  `prop`  -> Para Criar Atributos do Objeto
