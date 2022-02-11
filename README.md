@@ -81,9 +81,24 @@ Boas praticas
 
 * [Documentação e Habilitar CORS](https://docs.microsoft.com/pt-br/aspnet/core/security/cors?view=aspnetcore-5.0)
 
+## Aprendizados
+
+***Diferença de Autenticado e Autorizado***
+
+Exemplo
+
+* **Autenticação:** Verifique a carteira de estudante, significa que ele ou ela pertence à nossa escola ou não.
+* **Autorização:** Verifique se o aluno tem permissão para sentar ou não no Laboratório de Programação de Computadores.
+
+2 Exemplo
+
+* **A autenticação** trata da validação da conta do usuário. Este é um usuário válido? Este usuário está cadastrado em nosso aplicativo ?. por exemplo: Login
+
+* **A autorização** trata da validação de acesso do usuário a determinado recurso. Este usuário tem autorização / direito de acessar este recurso? por exemplo: reivindicações, funções
+
 ## Correçao de Erros
 
-SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server] (https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
+SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server](https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
 
 
 
