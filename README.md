@@ -80,6 +80,12 @@ Boas praticas
 
 * [Documentação e Habilitar CORS](https://docs.microsoft.com/pt-br/aspnet/core/security/cors?view=aspnetcore-5.0)
 
+## Correçao de Erros
+
+SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server] (https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
+
+
+
 ## Dicas
 
 * Atalhos [Snippets de código C#](https://docs.microsoft.com/pt-br/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022)
