@@ -1,8 +1,16 @@
-# ChapterApiWeb
+   <h1 align="center">
+   ChapterApiWeb
+</h1>
 
-Projeto feito Passo a Passo com o Tutorial de Api do Senai e Meet Boas praticas
 
-Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterApiWeb
+Criação de uma API seguindo padrões que são utilizados em softwares, como padrao MVC e Boas praticas de desenvolvimento usando C#
+
+ <div align="center">
+
+   <cite align="center">`Projeto feito Passo a Passo com o Tutorial de Api do Senai e Meet`</cite>
+
+</div>
+
 
 ### Pacotes do Nuget Utilizados:
 
