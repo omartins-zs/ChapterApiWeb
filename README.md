@@ -60,8 +60,9 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 ## Instrucões do banco de dados
 
 * db.sql -> Banco de dados inicial 
-
 * dbAutores.sql -> Usado para criar Tabela Autores
+* dbUsuarios.sql -> Usado para criar Tabela Usuarios
+
 
 ## 📄  Auxiliar
 
