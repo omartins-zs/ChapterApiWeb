@@ -62,22 +62,6 @@ Local Notebook C:\Users\gabri\OneDrive\Área de Trabalho\ChapterApiWeb\ChapterAp
 * dbUsuarios.sql -> Usado para criar Tabela Usuarios
 
 
-## 📄 Auxiliar
-
-### Referencias
-
-HTTP: Status Code [DevMedia](https://www.devmedia.com.br/http-status-code/41222)
-
-
-### Documentação:
-
-* [Introdução ao Swashbuckle e ao ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio)
-* [Exemplos de SELECT](https://docs.microsoft.com/pt-br/sql/t-sql/queries/select-examples-transact-sql?view=sql-server-ver15) 
-* [Fazer ALTER na Tabela SSMS](https://docs.microsoft.com/pt-br/sql/relational-databases/tables/add-columns-to-a-table-database-engine?view=sql-server-ver15)
-* [Documentação e Habilitar CORS](https://docs.microsoft.com/pt-br/aspnet/core/security/cors?view=aspnetcore-5.0)
-
-
-
 ## Aprendizados
 
 ***Diferença de Autenticado e Autorizado***
@@ -96,6 +80,18 @@ HTTP: Status Code [DevMedia](https://www.devmedia.com.br/http-status-code/41222)
 ## Correçao de Erros
 
 SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server](https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
+
+## 📄 Auxiliar e Docs
+
+* HTTP: Status Code [DevMedia](https://www.devmedia.com.br/http-status-code/41222)
+* [Introdução ao Swashbuckle e ao ASP.NET Core](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio)
+* [Exemplos de SELECT](https://docs.microsoft.com/pt-br/sql/t-sql/queries/select-examples-transact-sql?view=sql-server-ver15) 
+* [Fazer ALTER na Tabela SSMS](https://docs.microsoft.com/pt-br/sql/relational-databases/tables/add-columns-to-a-table-database-engine?view=sql-server-ver15)
+* [Documentação e Habilitar CORS](https://docs.microsoft.com/pt-br/aspnet/core/security/cors?view=aspnetcore-5.0)
+* Documentação do [Swashbuckle.AspNetCore](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio)
+* Sintaxe básica de escrita e formatação no GitHub [README](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Entendendo sobre Single, SingleOrDefault, First e FirstOrDefault – Linq](https://codigosimples.net/2016/03/28/entendendo-sobre-single-singleordefault-first-e-firstordefault-linq/)
+* Documentação [C# e ASP.NET Core - Autenticação e Autorização](https://balta.io/blog/aspnet-core-autenticacao-autorizacao)
 
 
 ## Dicas
