@@ -11,17 +11,6 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 
 </div>
 
-
-### Pacotes do Nuget Utilizados:
-
-* Microsoft.EntityFrameworkCore.SqlServer -> Para utilizar Migrations SQL
-* Swashbuckle.AspNetCore -> Para utilizar o Swagger
-* System.IdentityModel.Tokens.Jwt -> Para identificação de JWT
-* Microsoft.AspNetCore.Authentication.JwtBearer -> Para Interpretar Autenticação JWT
-
-   <br/> 
-    <hr>
- <br/> 
  
    <p align="center">
  🚀 Frameworks 
@@ -63,11 +52,19 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
    <img align="center" src="/Documentation-API.png">
 </div>
  
-## Instrucões do banco de dados
+## Instrucões do banco de dados e Pacotes do Nuget 
+
 
 * db.sql -> Banco de dados inicial 
 * dbAutores.sql -> Usado para criar Tabela Autores
 * dbUsuarios.sql -> Usado para criar Tabela Usuarios
+
+    <hr>
+
+* Microsoft.EntityFrameworkCore.SqlServer -> Para utilizar Migrations SQL
+* Swashbuckle.AspNetCore -> Para utilizar o Swagger
+* System.IdentityModel.Tokens.Jwt -> Para identificação de JWT
+* Microsoft.AspNetCore.Authentication.JwtBearer -> Para Interpretar Autenticação JWT
 
 
 ## Aprendizados
