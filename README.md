@@ -1,6 +1,5 @@
-   <h1 align="center">
-   ChapterApiWeb
-</h1>
+
+<h1 align="center"><img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg"><img align="left" src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-original-wordmark.svg" height="40" width="45" >Chapter Api Web<img align="right" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"><img align="right" height="40" width="45"src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" ></h1>
 
 
 Criação de uma API seguindo padrões que são utilizados em softwares, como padrao MVC e Boas praticas de desenvolvimento usando C#
@@ -97,6 +96,7 @@ SQL Server não está em execução [Erro de rede ou específico à instância a
 * Sintaxe básica de escrita e formatação no GitHub [README](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Entendendo sobre Single, SingleOrDefault, First e FirstOrDefault – Linq](https://codigosimples.net/2016/03/28/entendendo-sobre-single-singleordefault-first-e-firstordefault-linq/)
 * Documentação [C# e ASP.NET Core - Autenticação e Autorização](https://balta.io/blog/aspnet-core-autenticacao-autorizacao)
+* Icones [DevIcons](https://github.com/devicons/devicon/tree/master/icons)
 
 
 ## Dicas
