@@ -31,7 +31,7 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
   
   <hr>
   
-  ### Rodando localmente
+  ### 👨‍💻 Rodando localmente
   
   Swagger
   > `https://localhost:5001/index.html`
@@ -51,7 +51,7 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
    <img align="center" src="/Documentation-API.png">
 </div>
  
-## Instrucões do banco de dados e Pacotes do Nuget 
+## 📝 Instrucões do banco de dados e Pacotes do Nuget 
 
 
 * db.sql -> Banco de dados inicial 
@@ -81,7 +81,7 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 * **A autorização** trata da validação de acesso do usuário a determinado recurso. Este usuário tem autorização / direito de acessar este recurso? por exemplo: reivindicações, funções
 
 
-## Correçao de Erros
+## ❌ Correçao de Erros
 
 SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server](https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
 
@@ -97,9 +97,11 @@ SQL Server não está em execução [Erro de rede ou específico à instância a
 * [Entendendo sobre Single, SingleOrDefault, First e FirstOrDefault – Linq](https://codigosimples.net/2016/03/28/entendendo-sobre-single-singleordefault-first-e-firstordefault-linq/)
 * Documentação [C# e ASP.NET Core - Autenticação e Autorização](https://balta.io/blog/aspnet-core-autenticacao-autorizacao)
 * Icones [DevIcons](https://github.com/devicons/devicon/tree/master/icons)
+* Emojis [Emojipedia](https://emojipedia.org/)
 
 
-## Dicas
+
+## 🖋️ Dicas
 
 * Atalhos [Snippets de código C#](https://docs.microsoft.com/pt-br/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022)
 * Indentar -> ```  Ctrl + K + D ```
