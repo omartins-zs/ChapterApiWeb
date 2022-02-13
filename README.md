@@ -149,7 +149,7 @@ SQL Server não está em execução [Erro de rede ou específico à instância a
 * Documentação [C# e ASP.NET Core - Autenticação e Autorização](https://balta.io/blog/aspnet-core-autenticacao-autorizacao)
 * Icones [DevIcons](https://github.com/devicons/devicon/tree/master/icons)
 * Emojis [Emojipedia](https://emojipedia.org/)
-
+* Mesclar PNG [Aspose | Combine PNG online](https://products.aspose.app/pdf/pt/merger/png)
 
 
 ## 🖋️ Dicas
