@@ -39,6 +39,15 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
   Insomnia
   > `http://localhost:5000/api/`
 
+  ###  Realizar Teste do JWT e Authentication
+
+1. No insomnia no Get Listar Livros Clickar em Auth e Selecionar Bearer Token
+
+2. Copiar e colar Token 
+
+3. Checked Enabled estar Habilitado
+
+
 <hr/>
   <div align="center">
 
