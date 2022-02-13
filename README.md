@@ -108,6 +108,24 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 ## ❌ Correçao de Erros
 
 SQL Server não está em execução [Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server](https://cursos.alura.com.br/forum/topico-erro-de-rede-ou-especifico-a-instancia-ao-estabelecer-conexao-com-o-sql-server-89976)
+ 
+ <details>
+  <summary>Instalar Pacotes do Nuget </summary>
+  
+1. Ir no Explorador de Arquivos do VS
+2. Abrir na pasta dependencias
+3. Clickar com o botao direito em pacotes
+4. Ir em gerenciar pacotes do Nuget
+5. Na aba aberta Clickar na engrenagem(Configurações)
+6. Ir no icone "+"
+7. Adicionar em nome : Nuget.org
+8. Adicionar em Origem : https://api.nuget.org/v3/index.json
+9. Abrir na pasta dependencias
+10. Clickar em Ok
+  
+</details>
+
+
 
 ## 📄 Auxiliar e Docs
 
