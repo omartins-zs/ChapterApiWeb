@@ -54,7 +54,7 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 ## 📝 Instrucões do banco de dados e Pacotes do Nuget 
 
 
-* db.sql -> Banco de dados inicial 
+* db.sql -> Banco de dados Inicial 
 * dbAutores.sql -> Usado para criar Tabela Autores
 * dbUsuarios.sql -> Usado para criar Tabela Usuarios
 
@@ -79,6 +79,30 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 
 * **A autenticação** trata da validação da conta do usuário. Este é um usuário válido? Este usuário está cadastrado em nosso aplicativo ?. por exemplo: Login
 * **A autorização** trata da validação de acesso do usuário a determinado recurso. Este usuário tem autorização / direito de acessar este recurso? por exemplo: reivindicações, funções
+
+## Melhorias a fazer:
+
+<details>
+  <summary>Melhorar Codigo e Implemetar Tabela Autores</summary>
+ 
+- [ ] Refazer os Passos Criando Autores Controller
+
+- [ ] Criar Autores Repository
+
+- [ ] Refazer os Passos Criando Autores Controller
+
+- [ ] Criar Classe Autor.cs na Pasta Models
+
+- [ ] Criar Tabela Autores com o Script Pronto dbAutores.sql
+
+- [ ] Criar Classe Autor.cs na Pasta Models
+
+- [ ] Criar no Context a Ligaçao Entre o Banco e Model Autor
+
+- [ ] Criar Classe AutorRepository.cs na Pasta Repositories
+
+- [ ] Adicionar no Startup -> services.AddTransient<UsuarioRepository, UsuarioRepository>();
+</details>
 
 
 ## ❌ Correçao de Erros
