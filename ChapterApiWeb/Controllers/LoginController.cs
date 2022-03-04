@@ -36,7 +36,8 @@ namespace ChapterApiWeb.Controllers
 
                 if (usuarioBuscado == null)
                 {
-                    return NotFound("E-mail e/ou senha invalidos");
+                    // return NotFound("E-mail e/ou senha invalidos");
+                    return Unauthorized(new { msg = "E-mail e/ou senha invalidos" });
                 }
 
                 // Criando Claims do Token(Claims e usado para armazenar os dados que vem no token)
