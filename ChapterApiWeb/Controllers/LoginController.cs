@@ -1,4 +1,5 @@
-﻿using ChapterApiWeb.Models;
+﻿using ChapterApiWeb.Interfaces;
+using ChapterApiWeb.Models;
 using ChapterApiWeb.Repositories;
 using ChapterApiWeb.ViewModels;
 using Microsoft.AspNetCore.Http;
@@ -17,8 +18,9 @@ namespace ChapterApiWeb.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private readonly UsuarioRepository _usuarioRepository;
-        public LoginController(UsuarioRepository usuarioRepository)
+        private readonly IUsuarioRepository _usuarioRepository;
+
+        public LoginController(IUsuarioRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
         }
