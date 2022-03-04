@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
+using ChapterApiWeb.Interfaces;
 
 namespace ChapterApiWeb
 {
@@ -75,6 +76,9 @@ namespace ChapterApiWeb
             services.AddTransient<LivroRepository, LivroRepository>();
 
             services.AddTransient<UsuarioRepository, UsuarioRepository>();
+
+            // Adicionado Serviço da Interface utilizando o Usuario Repository
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
         }
 
