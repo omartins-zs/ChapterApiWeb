@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,6 +48,9 @@ namespace TestXUnit.Controllers
 
         {
             // Arrange = Organizaçao
+            // Se mudar o issuer Ira dar Errado que o que precisa ser Feito e Testado | Concluido
+            string issuerValidacao = "chapterApiWeb";
+
             // Criando Usuario Fake
             Usuario usuarioFake = new Usuario();
             usuarioFake.Email = "teste@teste.com";
@@ -63,11 +67,18 @@ namespace TestXUnit.Controllers
             dadosUsuario.Email = "teste@teste.com";
             dadosUsuario.Senha = "123456";
 
-            //  Act = Acao
-            var resultado = controller.Login(dadosUsuario);
+            //  Act = Acao 
+            // 2º OkObjectResult PARA FORÇAR O return a ser do Tipo Solicitado
+            OkObjectResult resultado = (OkObjectResult)controller.Login(dadosUsuario);
 
-            //  Assert = Afirmar
-            Assert.IsType<OkObjectResult>(resultado);
+            // Usando Split para Formatar e Separar Token e Pegar a 3º Posição do Array
+            var tokenFormatado = resultado.Value.ToString().Split(' ')[3];
+
+            var jstHandler = new JwtSecurityTokenHandler();
+            var jwtToken = jstHandler.ReadJwtToken(tokenFormatado);
+
+            //  Assert = Afirmar(Resultado Esperado)
+            Assert.Equal(issuerValidacao, jwtToken.Issuer);
 
         }
     }
