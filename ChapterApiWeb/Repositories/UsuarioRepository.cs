@@ -1,4 +1,5 @@
 ﻿using ChapterApiWeb.Contexts;
+using ChapterApiWeb.Interfaces;
 using ChapterApiWeb.Models;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ChapterApiWeb.Repositories
 {
-    public class UsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
         // possui acesso aos dados -> Somente leitura
         private readonly ChapterContext _context;
