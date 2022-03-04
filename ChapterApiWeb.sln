@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterApiWeb", "ChapterApiWeb\ChapterApiWeb.csproj", "{EF576024-13EA-4A1F-843E-138456C019E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChapterApiWeb", "ChapterApiWeb\ChapterApiWeb.csproj", "{EF576024-13EA-4A1F-843E-138456C019E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestXUnit", "TestXUnit\TestXUnit.csproj", "{34EE28A6-C166-4E9E-9ED2-01E30098EB28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EF576024-13EA-4A1F-843E-138456C019E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF576024-13EA-4A1F-843E-138456C019E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF576024-13EA-4A1F-843E-138456C019E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34EE28A6-C166-4E9E-9ED2-01E30098EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EE28A6-C166-4E9E-9ED2-01E30098EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EE28A6-C166-4E9E-9ED2-01E30098EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EE28A6-C166-4E9E-9ED2-01E30098EB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
