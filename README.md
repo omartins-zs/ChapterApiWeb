@@ -73,6 +73,7 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
 * Swashbuckle.AspNetCore -> Para utilizar o Swagger
 * System.IdentityModel.Tokens.Jwt -> Para identificação de JWT
 * Microsoft.AspNetCore.Authentication.JwtBearer -> Para Interpretar Autenticação JWT
+* Moq -> A biblioteca de simulação mais popular e amigável para .NET para Mockar(Criar e usar arquivos falsos no C#)
 
 
 ## Aprendizados
