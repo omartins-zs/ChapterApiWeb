@@ -40,5 +40,35 @@ namespace TestXUnit.Controllers
             Assert.IsType<UnauthorizedObjectResult>(resultado);
 
         }
+
+
+        [Fact]
+        public void LoginController_Retornar_Usuario()
+
+        {
+            // Arrange = Organizaçao
+            // Criando Usuario Fake
+            Usuario usuarioFake = new Usuario();
+            usuarioFake.Email = "teste@teste.com";
+            usuarioFake.Senha = "123456";
+
+            var repositorioFalso = new Mock<IUsuarioRepository>();
+            //configuraçao do que o repositorio falso prcisa
+            repositorioFalso.Setup(x => x.Login(It.IsAny<string>(), It.IsAny<string>())).Returns((usuarioFake));
+
+            var controller = new LoginController(repositorioFalso.Object);
+
+
+            LoginViewModel dadosUsuario = new LoginViewModel();
+            dadosUsuario.Email = "teste@teste.com";
+            dadosUsuario.Senha = "123456";
+
+            //  Act = Acao
+            var resultado = controller.Login(dadosUsuario);
+
+            //  Assert = Afirmar
+            Assert.IsType<OkObjectResult>(resultado);
+
+        }
     }
 }
