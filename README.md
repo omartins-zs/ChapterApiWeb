@@ -29,6 +29,10 @@ Criação de uma API seguindo padrões que são utilizados em softwares, como pa
   
   Decodificaçao de Token e Explicação - [JSON Web Tokens - jwt.io](https://jwt.io/)
   
+  Documentação [XUnit](https://xunit.net/docs/comparisons)
+
+Documentação [MSTest](https://docs.microsoft.com/pt-br/visualstudio/test/getting-started-with-unit-testing?view=vs-2019&tabs=dotnet%2Cmstest)
+  
   <hr>
   
   ### 👨‍💻 Rodando localmente
